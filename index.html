@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PORTAFOLIO | Sofía Palma</title>
+
+  <!-- Tipografías -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVBAR (sticky) -->
+  <header id="navbar" class="navbar">
+    <div class="container nav-inner">
+      <div class="brand">Sofía Palma</div>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-desktop">
+        <ul class="nav-links">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#enfoque">Enfoque</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#testimonials">Reseñas</a></li>
+          <li><a href="#timeline">Trayectoria</a></li>
+          <li><a href="#certifications">Certificaciones</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO (pantalla inicial con "PORTAFOLIO") -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <h1 class="hero-title">PORTAFOLIO</h1>
+        <p class="hero-sub">Sofía Palma — Psicóloga con formación en programación (beca en informática, valores e inglés)</p>
+        <a class="hero-btn" href="#about">Ver más ↓</a>
+      </div>
+      <div class="hero-decor" aria-hidden="true"></div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2>Sobre mí</h2>
+          <p>
+            Soy psicóloga con experiencia en acompañamiento humano y terapéutico.
+            Gracias a una beca en informática, valores e inglés, adquirí conocimientos
+            en programación web que me permiten diseñar soluciones digitales enfocadas
+            al bienestar emocional.
+          </p>
+          <p class="lead">Mi objetivo: unir empatía y tecnología para construir experiencias humanas.</p>
+        </div>
+
+        <div class="about-photo">
+          <!-- guarda la foto que subiste como img/foto-perfil.jpg -->
+          <img src="https://us-prod.asyncgw.teams.microsoft.com/v1/bfd1d6c2-2cbc-47f9-a853-ba05b351e192/objects/0-eus-d15-5c7bf5fac0600a828e41261d7c4c6d84/views/imgpsh_fullsize" alt="Foto de Sofía Palma">
+        </div>
+      </div>
+    </section>
+
+    <!-- ENFOQUE (Parallax sutil) -->
+    <section id="enfoque" class="section enfoque">
+      <div class="parallax-layer"></div>
+      <div class="container">
+        <h2>Mi enfoque</h2>
+        <p class="enfoque-text">
+          “Creo en el poder del acompañamiento humano apoyado en la tecnología como medio para transformar realidades.”
+        </p>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2>Habilidades</h2>
+        <div class="cards">
+          <div class="card"><strong>Comunicación empática</strong><span>Intervención y escucha activa</span></div>
+          <div class="card"><strong>Pensamiento crítico</strong><span>Evaluación basada en evidencia</span></div>
+          <div class="card"><strong>Programación web</strong><span>HTML · CSS · JavaScript · Python</span></div>
+          <div class="card"><strong>Inglés</strong><span>Competencia profesional</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Proyectos</h2>
+        <p class="projects-note">Haz clic en el logo o nombre para abrir el diseño.</p>
+
+        <div class="projects-grid">
+          <article class="project">
+            <a class="project-link" href="https://www.figma.com/proto/DNnJ6eEIG8SZFBvPnVmdYV/Medical-Care--copia-?node-id=206-2&p=f&t=SrUPeq3A0tGFUmmj-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=347%3A28" target="_blank" rel="noopener">
+              <img src="fotos/MC.png" alt="MedicalCare logo" class="project-logo">
+            </a>
+            <h3><a class="project-link" href="https://www.figma.com/proto/DNnJ6eEIG8SZFBvPnVmdYV/Medical-Care--copia-?node-id=206-2&p=f&t=SrUPeq3A0tGFUmmj-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=347%3A28" target="_blank" rel="noopener">MedicalCare</a></h3>
+            <p class="muted">Plataforma de salud mental y seguimiento clínico.</p>
+          </article>
+
+          <article class="project">
+            <a class="project-link" href="https://github.com/OscarAlegria12/NewInnVate.git" target="_blank" rel="noopener">
+              <img src="fotos/InnVat.png" alt="InnVate logo" class="project-logo">
+            </a>
+            <h3><a class="project-link" href="https://github.com/OscarAlegria12/NewInnVate.git" target="_blank" rel="noopener">InnVate</a></h3>
+            <p class="muted">Soluciones educativas e innovación social.</p>
+          </article>
+
+          <article class="project">
+            <a class="project-link" href="https://github.com/MrAlegria-6/IonSparkProject" target="_blank" rel="noopener">
+              <img src="fotos/IS.png" alt="IonSpark logo" class="project-logo">
+            </a>
+            <h3><a class="project-link" href="https://github.com/MrAlegria-6/IonSparkProject" target="_blank" rel="noopener">IonSpark</a></h3>
+            <p class="muted">Prototipos interactivos y campañas digitales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section id="testimonials" class="section testimonials">
+      <div class="container">
+        <h2>Reseñas</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card"><p class="quote">"He tenido la oportunidad de conocer a Sofía de manera personal por 8 años y trabajar por 3 años. Puedo reconocer su liderazgo y empatía a lo largo de todo este tiempo, y cómo resalta por su empatía, innovación y resiliencia a lo largo de trabajos y proyectos"</p><p class="testi-name">— Alisson Acevedo</p></div>
+          <div class="testimonial-card"><p class="quote">"Aportó ideas grandiosas y siempre fue resiliente, creo que siempre hace aportaciones muy valiosas, me gustó mucho trabajar con ella ."</p><p class="testi-name">— Oscar Alegria</p></div>
+          <div class="testimonial-card"><p class="quote">"Trabajar con Melany ha sido una experiencia increíble. Es alguien responsable, amable y siempre está dispuesta a ayudar. Se adapta bien al trabajo en equipo y mantiene una actitud positiva que motiva a los demás. Sin duda, un líder que inspira y con la que da gusto compartir proyectos."</p><p class="testi-name">— Débora Martinez</p></div>
+          <div class="testimonial-card"><p class="quote">"Siempre buscaba soluciones a las problemáticas, ella siempre fue muy positiva y creativa, sus ideas eran grandiosas y fueron usadas en el proyecto que quedo increble."</p><p class="testi-name">— Abigail Lue</p></div>
+          <div class="testimonial-card"><p class="quote">"Aporta claridad y calidez en cada proyecto, fue una experiencia muy agradable trabajar con ella, porqué siempre nos apoyo incluso cuando pasamos malas rachas con el proyecto."</p><p class="testi-name">— Fabiola Melgar</p></div>
+          <div class="testimonial-card"><p class="quote">"Trabajar con Melany Palma en equipo fue una experiencia muy positiva. Destacó por su responsabilidad, buena comunicación y disposición para colaborar en equipo. Aportó ideas valiosas durante el proceso y cumplió con sus tareas de forma eficiente, contribuyendo al avance del proyecto en un tiempo limitado."</p><p class="testi-name">— Tomas Bonilla</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE / TRAYECTORIA -->
+    <section id="timeline" class="section timeline">
+      <div class="container">
+        <h2>Trayectoria</h2>
+        <div class="timeline-wrap">
+          <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-info"><strong>Beca en Informática, Valores e Inglés</strong><span>Inicio de formación técnica</span></div></div>
+          <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-info"><strong>Primer proyecto web</strong><span>MedicalCare - prototipo en Figma</span></div></div>
+          <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-info"><strong>Colaboraciones</strong><span>Proyectos con ONGs y equipos multidisciplinares</span></div></div>
+          <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-info"><strong>Certificaciones</strong><span>Python · Excel</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICACIONES -->
+    <section id="certifications" class="section certifications">
+      <div class="container">
+        <h2>Certificaciones y Diplomas</h2>
+        <p class="muted">Algunas certificaciones recientes que avalan mi formación técnica y profesional.</p>
+
+        <div class="cert-grid">
+          <div class="cert-card"><img src="fotos/python.JPG" alt="Certificado Python"></div>
+          <div class="cert-card"><img src="fotos/excel.JPG" alt="Certificado Excel"></div>
+          <div class="cert-card"><img src="fotos/certificado 1.jpg" alt="Certificado"></div>
+          <div class="cert-card"><img src="fotos/certificado 2.jpg" alt="Certificado"></div>
+          <div class="cert-card"><img src="fotos/certificado 3.jpg" alt="Certificado"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <div>
+          <h2>Contacto</h2>
+          <p>¿Quieres trabajar conmigo o saber más? Escríbeme.</p>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <input type="text" name="name" placeholder="Nombre" required>
+          <input type="email" name="email" placeholder="Correo" required>
+          <textarea name="message" rows="5" placeholder="Mensaje" required></textarea>
+          <button type="submit" class="btn-primary">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2025 Sofía Palma • Psicóloga &amp; desarrolladora</p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
+            <path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5z" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M16 11.37A4 4 0 1111.37 7 4 4 0 0116 11.37z" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M17.5 6.5h.01" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
+            <path d="M18 2h-3a4 4 0 00-4 4v3H8v4h3v8h4v-8h3l1-4h-4V6a1 1 0 011-1h3z" stroke="#fff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
